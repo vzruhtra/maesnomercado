@@ -1,0 +1,191 @@
+<html><head><base href="https://example">
+  <meta charset="UTF-8">
+  <title>Mães Empreendedoras - Conquiste Sua Independência Financeira</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #fff1f6, #ffe6f0);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px 0;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      color: #ff1493;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .highlight-box {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      margin: 20px 0;
+      box-shadow: 0 10px 20px rgba(255,20,147,0.1);
+      transform: translateY(0);
+      transition: transform 0.3s ease;
+    }
+
+    .highlight-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(45deg, #ff1493, #ff69b4);
+      color: white;
+      padding: 20px 40px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 20px 0;
+      animation: pulse 2s infinite;
+      box-shadow: 0 5px 15px rgba(255,20,147,0.3);
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 40px 0;
+    }
+
+    .price-tag {
+      font-size: 2.5em;
+      color: #ff1493;
+      font-weight: bold;
+      text-align: center;
+      margin: 20px 0;
+      animation: bounceIn 1s ease;
+    }
+
+    @keyframes bounceIn {
+      0% { transform: scale(0.3); opacity: 0; }
+      50% { transform: scale(1.05); opacity: 0.8; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .testimonial {
+      font-style: italic;
+      color: #666;
+      margin: 20px 0;
+      padding: 20px;
+      border-left: 4px solid #ff1493;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Transforme Sua Vida Como Mãe Empreendedora!</h1>
+      <p style="font-size: 1.2em; color: #666;">Descubra o método exclusivo que está ajudando milhares de mães a conquistarem sua independência financeira</p>
+    </header>
+
+    <div class="highlight-box">
+      <h2 style="color: #ff1493;">🌟 Ganhe R$ 5.000 Por Mês Trabalhando de Casa</h2>
+      <p style="font-size: 1.1em; line-height: 1.6;">Você é uma mãe guerreira que sonha em ter mais tempo com seus filhos enquanto conquista sua independência financeira? Chegou a sua grande oportunidade!</p>
+    </div>
+
+    <div class="benefits">
+      <div class="highlight-box">
+        <h3>✨ O Que Você Vai Receber:</h3>
+        <ul style="list-style-type: none; padding: 20px;">
+          <li>📱 Acesso ao curso completo</li>
+          <li>📚 Material exclusivo</li>
+          <li>👥 Grupo VIP de suporte</li>
+          <li>🎯 Mentoria personalizada</li>
+          <li>💰 Estratégias comprovadas</li>
+        </ul>
+      </div>
+
+      <div class="highlight-box">
+        <h3>🌈 Benefícios:</h3>
+        <ul style="list-style-type: none; padding: 20px;">
+          <li>⏰ Trabalhe no seu próprio horário</li>
+          <li>🏠 Trabalhe de casa</li>
+          <li>👶 Mais tempo com seus filhos</li>
+          <li>💫 Realize seus sonhos</li>
+          <li>🎯 Renda garantida</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="highlight-box" style="text-align: center;">
+      <h2 style="color: #ff1493;">Investimento Único de Apenas:</h2>
+      <div class="price-tag">R$ 4,99</div>
+      <p style="font-size: 1.2em; color: #666;">Uma única vez para mudar sua vida para sempre!</p>
+      <a href="https://wa.me/5522992895620" class="cta-button">
+        QUERO COMEÇAR AGORA! 👉 CLIQUE AQUI
+      </a>
+    </div>
+
+    <div class="testimonial">
+      "Graças a esse método incrível, consegui sair do meu emprego e hoje trabalho de casa, cuidando dos meus filhos e ganhando mais do que jamais imaginei!" - Maria S.
+    </div>
+
+    <div class="highlight-box" style="text-align: center;">
+      <h3>🔒 100% Seguro e Garantido</h3>
+      <p style="color: #666;">Satisfação garantida ou seu dinheiro de volta em até 7 dias</p>
+      <a href="https://wa.me/5522992895620" class="cta-button">
+        GARANTA SUA VAGA AGORA! 🎯
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // Adiciona efeito suave ao scroll
+    document.querySelectorAll('a[href^="https"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        window.location.href = this.getAttribute('href');
+      });
+    });
+
+    // Adiciona animação aos elementos quando aparecem na tela
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = "1";
+          entry.target.style.transform = "translateY(0)";
+        }
+      });
+    });
+
+    document.querySelectorAll('.highlight-box').forEach((el) => {
+      el.style.opacity = "0";
+      el.style.transform = "translateY(20px)";
+      observer.observe(el);
+    });
+  </script>
+</body></html>
